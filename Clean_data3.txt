@@ -1,0 +1,46 @@
+np.array([0,2,4,6,10])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'np' is not defined
+import  numpy
+import   numpy  as np
+np.array([0,2,4,6,10])
+array([ 0,  2,  4,  6, 10])
+c = np.array([0,2,4,6,8,10])
+copy_c = c_copy()
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'c_copy' is not defined
+copy_c = c.copy()
+c
+array([ 0,  2,  4,  6,  8, 10])
+copy_c
+array([ 0,  2,  4,  6,  8, 10])
+c*=2
+c=c**2
+view  = copy_c[np.array([2,3,4])]
+view1 = c>100
+view2 = c[c>100]=95
+c.clip(2,94)
+array([ 2, 16, 64, 94, 94, 94])
+data = np.genfromtxt("data/web_traffic.tsv")
+data = np.genfromtxt("data/web_traffic.tsv", delimiter=="\t")
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'delimiter' is not defined
+data = np.genfromtxt("data/web_traffic.tsv", delimiter="\t")
+np.isnan(data)
+array([[False, False],
+       [False,  True],
+       [False, False],
+       ...,
+       [False, False],
+       [False, False],
+       [False, False]], shape=(743, 2))
+data[~np.isnan(data)]
+array([1.000e+00, 2.272e+03, 2.000e+00, ..., 5.906e+03, 7.430e+02,
+       4.881e+03], shape=(1478,))
+np.mean(data[~np.isnan(data)])
+np.float64(1162.7794316644113)
+np.std(data[~np.isnan(data)])
+np.float64(1011.5231284089888)
