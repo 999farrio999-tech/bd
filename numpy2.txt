@@ -1,4 +1,4 @@
-C:\Users\student\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/plugins/python-ce/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=52101 
+123123C:\Users\student\PycharmProjects\PythonProject\.venv\Scripts\python.exe "C:/Program Files/JetBrains/PyCharm 2025.3.2.1/plugins/python-ce/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=52101 
 import sys; print('Python %s on %s' % (sys.version, sys.platform))
 sys.path.extend(['C:\\Users\\student\\PycharmProjects\\PythonProject'])
 PyDev console: starting.

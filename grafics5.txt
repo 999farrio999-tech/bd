@@ -1,4 +1,4 @@
-import  numpy as np
+qweqweimport  numpy as np
 import matplotlib.pyplot as plt
 from numpy.polynomial import Polynomial
 """Чтение данных из файла"""

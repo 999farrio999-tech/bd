@@ -1,4 +1,4 @@
-np.array([0,2,4,6,10])
+hnp.array([0,2,4,6,10]) 222h
 Traceback (most recent call last):
   File "<input>", line 1, in <module>
 NameError: name 'np' is not defined
